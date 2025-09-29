@@ -150,3 +150,16 @@
 }
 
 /* main video */
+
+.main-video__block{
+    margin: 15% auto;
+    max-width: 1280px;
+    
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+        width: 35%;
+        margin-bottom: 30px;
+    }
+}
