@@ -3,6 +3,13 @@
   gap: 40px;
 }
 
+.header-container{
+  background: url("../assets/header-orange-img.jpg");
+  background-repeat: no-repeat;
+  background-position: 85%;
+  background-size: contain;
+}
+
 .header-button button {
   border: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
@@ -23,6 +30,7 @@
   margin: 0 auto;
   align-items: center;
   padding: 20px 0;
+  z-index: 1;
 }
 
 .header-content__block-one{
@@ -34,6 +42,7 @@
   max-width: 1280px;
   margin: 0 auto;
   gap: 50px;
+  z-index: 1;
 }
 
 .header-content__block-one div button {
